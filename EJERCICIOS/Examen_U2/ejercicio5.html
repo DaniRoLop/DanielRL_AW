@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+
+        }
+
+        div {
+            margin: 4px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <form action="https://en4b0j3n1vsf1.x.pipedream.net" method="GET">
+
+        <div id="contenedora-formulario" style="width: 700px; height: 200px;background: #BEBEBE">
+
+
+            <div class="clearfix" style="float: none;margin: 0 auto;width:700px;text-align:center;background:white">
+                -Formulario en capas-
+
+
+            </div>
+
+            <div class="clearfix">
+
+                <div style="float:left;width: 80px;">
+                    Nombre
+                </div>
+
+                <div style="float:left;">
+                    <input type="text" name="nombre" size="20" />
+                </div>
+                <div style="float: left">
+                    F.Nac.:
+                </div>
+                <div style="float: left">
+                    <input type="date" name="fecha" title="Pon fecha de nacimiento" />
+                </div>
+                <div style="float:left">
+                    DNI:
+                    <input type="text" placeholder="DNI" size="10" maxlength="9" name="nif"
+                        pattern="(([X-Z]{1})([-]?)(\d{7})([-]?)([A-Z]{1}))|((\d{8})([-]?)([A-Z]{1}))"
+                        title="Introduzca el dni" required />
+
+                </div>
+
+
+            </div>
+
+            <div class="clearfix">
+
+
+                <div style="float:left;width: 80px;">
+                    Apellidos
+                </div>
+
+                <div style="float:left;">
+                    <input type="text" name="apellidos" size="71" />
+                </div>
+            </div>
+            <div class="clearfix">
+
+
+                <div style="float:left;width: 80px;">
+                    Dirección
+                </div>
+
+                <div style="float:left;">
+                    <input type="text" name="dirección" size="71" />
+                </div>
+            </div>
+            <div class="clearfix">
+
+                <div style="float:left;width: 80px;">
+                    C_Postal
+                </div>
+
+                <div style="float:left;">
+                    <input type="text" name="Codigo Postal" size="4" />
+                </div>
+                <div style="float: left">
+                    Ciudad
+                </div>
+                <div style="float: left">
+                    <input type="text" name="Ciudad" size="53" />
+                </div>
+
+
+                <div class="clearfix">
+
+
+                    <div style="float:left;width: 80px;">
+
+                        <input type="reset" value="Limpiar" />
+                    </div>
+
+                    <div style="float:right;">
+
+                        <input type="submit" value="Enviar" />
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+    </form>
+
+</body>
+
+</html>
